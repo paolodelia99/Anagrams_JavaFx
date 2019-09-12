@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
+import java.util.*;
 
 public class Permutation {
     String wordToPermute;
@@ -14,6 +12,9 @@ public class Permutation {
 
     public ArrayList<String> returnAnagrams(){
         permute(wordToPermute,0,stringLenght-1);
+        Set<String> set = new HashSet<>(anagrams);
+        anagrams.clear();
+        anagrams.addAll(set);
         Collections.sort(anagrams);
         return anagrams;
     }
