@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2133961d-f8e7-466c-9c38-e563404d05f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SelectableLabel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/disegno-di-lettera-alfabeto-colorato-600x600.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainWindow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainWindow$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Permutation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Permutation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/Viper.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/Viper.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainWindow$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/MainWindow.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Permutation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Viper.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Viper.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="17">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,10 +42,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Viper.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -79,7 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/Viper.css" />
         <option value="$PROJECT_DIR$/src/main/java/PathWindowController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/RenameWindow.fxml" />
         <option value="$PROJECT_DIR$/src/main/java/RenameWindowController.java" />
@@ -89,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/test/java/Second.java" />
         <option value="$PROJECT_DIR$/src/test/java/First.java" />
         <option value="$PROJECT_DIR$/src/main/java/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Viper.css" />
         <option value="$PROJECT_DIR$/src/main/java/MainWindow.java" />
       </list>
     </option>
@@ -104,8 +91,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +133,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,11 +244,12 @@
       <workItem from="1568200302166" duration="14619000" />
       <workItem from="1568218266858" duration="485000" />
       <workItem from="1568302746192" duration="1991000" />
+      <workItem from="1568397845047" duration="1552000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34645000" />
+    <option name="totallyTimeSpent" value="36197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -275,7 +263,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27231467" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -351,14 +339,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/RenameWindow.fxml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/RenameWindowController.java" />
-    <entry file="file://$PROJECT_DIR$/build/resources/main/PathWindow.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="103" selection-start-line="7" selection-start-column="103" selection-end-line="7" selection-end-column="103" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/build/resources/main/PathWindow.fxml" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/javafx-src.zip!/com/sun/javafx/tk/quantum/GlassViewEventHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -366,17 +347,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Paolo.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Paolo.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/PathWindowController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Viper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SelectableLabel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -399,14 +371,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/Permutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="17" column="35" lean-forward="true" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Viper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="17">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

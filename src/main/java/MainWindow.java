@@ -13,7 +13,6 @@ import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -61,6 +60,7 @@ public class MainWindow extends Application {
 
     private void ShowAnagrams(String wordToAnagram){
         Stage anagramStage = new Stage();
+        Scene scene;
         BorderPane borderPane = new BorderPane();
         MenuBar menuBar = new MenuBar();
         Menu menu = new Menu("File");
@@ -115,8 +115,9 @@ public class MainWindow extends Application {
         borderPane.setTop(menuBar);
         borderPane.setCenter(vBox);
 
+        scene = new Scene(borderPane,300,400);
         anagramStage.setTitle("All the anagrams of "+wordToAnagram);
-        anagramStage.setScene(new Scene(borderPane,300,400));
+        anagramStage.setScene(scene);
         anagramStage.getIcons().add(new Image("disegno-di-lettera-alfabeto-colorato-600x600.png"));
         anagramStage.show();
     }
@@ -133,6 +134,7 @@ public class MainWindow extends Application {
         vBox.getChildren().addAll(thisIsPathLabel,pathLabel);
 
         Scene scene = new Scene(vBox,550,125);
+        scene.getStylesheets().add("Viper.css");
         stage.setTitle("Path of the file");
         stage.getIcons().add(new Image("disegno-di-lettera-alfabeto-colorato-600x600.png"));
         stage.initModality(Modality.APPLICATION_MODAL);
