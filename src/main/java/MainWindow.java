@@ -145,10 +145,8 @@ public class MainWindow extends Application {
     FIXME cose da fare:
     - stile css
     - trova anagramma
-    - rimuovere le copie
     - lista di anagrammi che cominciano con ...
     - trova un modo per aprire nuovo stage in un altro modo(se riesci e se ne vale la pena)
     */
-
 
 }
